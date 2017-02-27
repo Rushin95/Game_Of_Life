@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Game Of Life</string>
+    <string name="confirmation_title">Reset the Game?</string>
+    <string name="confirmation_msg">You will lose your progress.</string>
+    <string name="confirmation_yes">YES</string>
+    <string name="confirmation_no">NO</string>
+</resources>
