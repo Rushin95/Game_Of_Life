@@ -16,9 +16,14 @@
         android:id="@+id/start_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:elevation="0dp"
+        android:padding="10dp"
+        android:text="START GAME"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="START GAME" />
+        android:layout_marginTop="116dp" />
 
     <Button
         android:id="@+id/exit_button"
@@ -26,8 +31,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/start_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
-        android:text="EXIT GAME" />
+        android:layout_marginTop="62dp"
+        android:background="@android:color/background_light"
+        android:padding="10dp"
+        android:text="EXIT GAME"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView"
@@ -39,5 +47,6 @@
         android:text="Welcome to the Game of Life...!!!!!"
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
 </RelativeLayout>
